@@ -1,0 +1,24 @@
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid;
+}
+.Home{
+    text-align: center;
+}
+nav > ul{
+    display: flex;
+   
+}
+nav  li{
+    list-style: none;
+    margin-right: 10px;
+    padding:10px ;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: rgb(160, 38, 16);
+}

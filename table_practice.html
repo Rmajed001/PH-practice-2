@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table practice</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        border-color: brown;
+        }
+
+        td,th{
+        border: 1px solid;
+        padding: 10px;
+        border-color: blue;
+
+        }
+        h{
+            text-align: center;
+        }
+        .main{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>This is the list</caption>
+        <div class="main">
+            <h2>This is the main list</h2>
+            <thead>
+                <tr>
+                    <th>Serial no.</th>
+                    <th>Name</th>
+                    <th>Sallary</th>
+                    <th>working position</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>Malek</th>
+                    <th>$1600</th>
+                    <th>Developer</th>
+                </tr>
+                 <tr>
+                    <th>2</th>
+                    <th>saleh</th>
+                    <th>$1800</th>
+                    <th>Junior Developer </th>
+                 </tr>
+            </tbody>
+        </div>
+        <tfoot>
+            <td colspan="4"></td>
+        </tfoot>
+    </table>
+</body>
+</html>
